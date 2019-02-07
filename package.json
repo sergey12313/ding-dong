@@ -9,13 +9,13 @@
   },
   "main": "lib/",
   "scripts": {
-    "test": "mocha -R tap"
+    "test": "mocha -R tap --exit"
   },
   "engines": {
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "readable-stream": "*"
+    "readable-stream": "^2.3.0"
   },
   "devDependencies": {
     "expect.js": "*",
